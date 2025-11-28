@@ -1,42 +1,83 @@
+###############################
+# Maven Build Output
+###############################
 target/
 !.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
-.smarttomcat/
+mvnw
+mvnw.cmd
 
+###############################
+# Maven Wrapper
+###############################
+.mvn/
+
+###############################
+# IntelliJ IDEA
+###############################
 .idea/
-.kotlin
+*.iml
+*.iws
+*.ipr
 
-### IntelliJ IDEA ###
+# Specific IntelliJ files to ignore
 .idea/modules.xml
 .idea/jarRepositories.xml
 .idea/compiler.xml
 .idea/libraries/
-*.iws
-*.iml
-*.ipr
 
-### Eclipse ###
-.apt_generated
+###############################
+# SmartTomcat Plugin
+###############################
+.smarttomcat/
+
+###############################
+# Eclipse
+###############################
 .classpath
-.factorypath
 .project
-.settings
+.settings/
+.factorypath
+.apt_generated
 .springBeans
 .sts4-cache
 
-### NetBeans ###
+###############################
+# NetBeans
+###############################
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
-build/
+/build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-### VS Code ###
+###############################
+# VS Code
+###############################
 .vscode/
 
-### Mac OS ###
+###############################
+# OS Files
+###############################
 .DS_Store
+Thumbs.db
+
+###############################
+# Logs
+###############################
+*.log
+
+###############################
+# Java Generated
+###############################
+*.class
+
+###############################
+# Backup files
+###############################
+*.swp
+*.bak
+*.tmp
+*~
